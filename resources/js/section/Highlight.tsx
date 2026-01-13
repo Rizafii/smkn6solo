@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 export default function Highlight() {
     return (
         <section className="w-full">
-            <div className="container mx-auto grid grid-cols-2 items-center justify-center px-26 py-24">
+            <div className="gird-cols-1 container mx-auto grid items-center justify-center gap-6 px-6 py-8 md:grid-cols-2 md:gap-0 md:px-26 md:py-24">
                 <div className="image flex w-full items-center justify-center">
                     <img src="/smk.svg" alt="logo" className="h-auto w-82" />
                 </div>
