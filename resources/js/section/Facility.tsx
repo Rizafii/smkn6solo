@@ -2,26 +2,26 @@ import { ArrowRight } from 'lucide-react';
 
 const facilities = [
     {
-        category: 'PPID PROFILE',
-        title: 'Public Information Service',
+        category: 'FASILITAS SEKOLAH',
+        title: 'Laboratorium Jurusan',
         image: '/gallery/1.JPG',
         link: '#',
     },
     {
-        category: 'INFORMATION',
-        title: 'Pertamina Fuel Price',
+        category: 'FASILITAS SEKOLAH',
+        title: 'Perpustakaan Wijang',
         image: '/gallery/2.JPG',
         link: '#',
     },
     {
-        category: 'GCG',
-        title: 'Corporate Governance',
+        category: 'FASILITAS SEKOLAH',
+        title: 'Lapangan Olahraga',
         image: '/gallery/3.jpeg',
         link: '#',
     },
     {
-        category: 'RECRUITMENT',
-        title: 'Become a Pertamina Officer',
+        category: 'FASILITAS SEKOLAH',
+        title: 'Aula Serbaguna',
         image: '/gallery/4.JPG',
         link: '#',
     },
@@ -56,7 +56,7 @@ export default function Facility() {
                                     <p className="text-xs font-semibold tracking-wider uppercase">
                                         {facility.category}
                                     </p>
-                                    <h3 className="text-2xl leading-tight font-bold">
+                                    <h3 className="text-2xl leading-tight font-semibold">
                                         {facility.title}
                                     </h3>
                                 </div>
