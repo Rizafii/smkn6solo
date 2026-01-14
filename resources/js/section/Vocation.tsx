@@ -12,52 +12,52 @@ import { useEffect, useState } from 'react';
 const vocations = [
     {
         id: 1,
-        title: 'Bonds',
+        title: 'Akutansi Keuangan Lembaga',
         description:
-            'Jelajahi informasi terbaru tentang obligasi Pertamina, peluang investasi, serta komitmen kami terhadap pertumbuhan berkelanjutan.',
+            'Pelajari prinsip-prinsip akuntansi dan manajemen keuangan untuk lembaga bisnis dan organisasi.',
         bgImage: '/gallery/1.JPG',
     },
     {
         id: 2,
-        title: 'Shareholders',
+        title: 'Manajemen Perkantoran dan Layanan Bisnis',
         description:
-            'Ketahui struktur kepemilikan, tata kelola, serta peran kami dalam pengelolaan perusahaan.',
+            'Pelajari keterampilan manajemen perkantoran dan layanan bisnis.',
         bgImage: '/gallery/2.JPG',
     },
     {
         id: 3,
-        title: 'Annual Report',
+        title: 'Usaha Layanan Pariwisata',
         description:
-            'Jelajahi laporan tahunan bisnis dan kinerja keuangan setiap tahun.',
+            'Pelajari tentang industri pariwisata dan keterampilan yang dibutuhkan untuk mengelola usaha layanan pariwisata.',
         bgImage: '/gallery/3.jpeg',
     },
 
     {
         id: 4,
-        title: 'Annual Report',
+        title: 'Pemasaran',
         description:
-            'Jelajahi laporan tahunan bisnis dan kinerja keuangan setiap tahun.',
+            'Pelajari tentang strategi pemasaran dan teknik promosi untuk meningkatkan penjualan dan membangun merek.',
         bgImage: '/gallery/3.jpeg',
     },
     {
         id: 5,
-        title: 'Annual Report',
+        title: 'Desain Komunikasi Visual',
         description:
-            'Jelajahi laporan tahunan bisnis dan kinerja keuangan setiap tahun.',
+            'Pelajari tentang desain grafis, komunikasi visual, dan penggunaan media digital untuk menyampaikan pesan secara efektif.',
         bgImage: '/gallery/3.jpeg',
     },
     {
         id: 6,
-        title: 'Annual Report',
+        title: 'Broadcasting dan Perfilman',
         description:
-            'Jelajahi laporan tahunan bisnis dan kinerja keuangan setiap tahun.',
+            'Pelajari tentang teknik produksi media, penyiaran, dan perfilman untuk menciptakan konten yang menarik dan berkualitas.',
         bgImage: '/gallery/3.jpeg',
     },
     {
         id: 7,
-        title: 'Annual Report',
+        title: 'Rekayasa Perangkat Lunak',
         description:
-            'Jelajahi laporan tahunan bisnis dan kinerja keuangan setiap tahun.',
+            'Pelajari tentang pengembangan perangkat lunak, pemrograman, dan manajemen proyek teknologi informasi.',
         bgImage: '/gallery/3.jpeg',
     },
 ];
