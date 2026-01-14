@@ -41,9 +41,9 @@ export default function Stats() {
                             <p className="text-sm font-semibold text-primary uppercase">
                                 Overview
                             </p>
-                            <h2 className="max-w-[500px] text-3xl font-semibold text-foreground">
+                            <h4 className="max-w-[500px] text-3xl font-semibold text-foreground">
                                 Beberapa Informasi Mengenai SMKN 6 Surakarta
-                            </h2>
+                            </h4>
                         </div>
                         <div className="desc">
                             <p className="max-w-[550px] text-justify text-base leading-7 text-muted-foreground">

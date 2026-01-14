@@ -5,6 +5,7 @@ import Facility from '@/section/Facility';
 import Hero from '@/section/Hero';
 import Highlight from '@/section/Highlight';
 import Stats from '@/section/Stats';
+import Vocation from '@/section/Vocation';
 import { type SharedData } from '@/types';
 import { Head, usePage } from '@inertiajs/react';
 
@@ -30,6 +31,7 @@ export default function Welcome({
             <About />
             <Stats />
             <Facility />
+            <Vocation />
             <Footer />
         </>
     );

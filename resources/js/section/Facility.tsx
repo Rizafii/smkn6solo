@@ -56,9 +56,9 @@ export default function Facility() {
                                     <p className="text-xs font-semibold tracking-wider uppercase">
                                         {facility.category}
                                     </p>
-                                    <h3 className="text-2xl leading-tight font-semibold">
+                                    <h5 className="text-2xl leading-tight font-semibold">
                                         {facility.title}
-                                    </h3>
+                                    </h5>
                                 </div>
                                 <div className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-white transition-all duration-300 group-hover:scale-110 group-hover:bg-white">
                                     <ArrowRight className="h-5 w-5 transition-colors duration-300 group-hover:text-black" />
