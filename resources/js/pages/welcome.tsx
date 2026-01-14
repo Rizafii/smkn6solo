@@ -1,4 +1,5 @@
 import Footer from '@/components/Footer';
+import Navbar from '@/components/Navbar';
 import About from '@/section/About';
 import Hero from '@/section/Hero';
 import Highlight from '@/section/Highlight';
@@ -23,6 +24,7 @@ export default function Welcome({
                 />
             </Head>
             <Hero />
+            <Navbar hideUntilAfterHero />
             <Highlight />
             <About />
             <Stats />
