@@ -6,7 +6,6 @@ import {
     CarouselPrevious,
     type CarouselApi,
 } from '@/components/ui/carousel';
-import { ArrowUpRight } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 const vocations = [
@@ -79,7 +78,7 @@ export default function Vocation() {
         <section className="w-full">
             <div className="container mx-auto px-6 py-12 md:px-26 md:py-28">
                 <div className="flex w-full flex-col items-center gap-12 md:gap-14">
-                    <div className="top flex w-full flex-col items-end justify-between gap-6 md:flex-row md:gap-0">
+                    <div className="top flex w-full flex-col items-start justify-between gap-6 md:flex-row md:items-end md:gap-0">
                         <div className="title flex flex-col items-start gap-2">
                             <p className="text-sm font-semibold text-primary uppercase">
                                 Vocation
@@ -98,7 +97,7 @@ export default function Vocation() {
                     </div>
                     <div className="content relative h-[600px] w-full overflow-hidden">
                         {/* Background Image - Left Half Only */}
-                        <div className="absolute top-0 bottom-0 left-0 w-1/2 overflow-hidden">
+                        <div className="absolute top-0 bottom-0 left-0 w-full overflow-hidden md:w-1/2">
                             {vocations.map((vocation, index) => (
                                 <img
                                     key={vocation.id}
@@ -115,7 +114,7 @@ export default function Vocation() {
                         </div>
 
                         {/* Gradient Overlay - White to Transparent */}
-                        <div className="pointer-events-none absolute top-0 right-0 bottom-0 z-10 w-1/4 bg-linear-to-l from-background to-transparent" />
+                        <div className="pointer-events-none absolute top-0 right-0 bottom-0 z-10 w-1/4 bg-linear-to-l from-background to-transparent opacity-0 md:opacity-100" />
 
                         {/* Floating Cards on the Right - Horizontal Carousel */}
                         <div className="absolute top-0 right-0 bottom-0 flex w-full items-center pr-4 pl-4 md:w-3/5">
@@ -150,13 +149,6 @@ export default function Vocation() {
                                                     >
                                                         {vocation.title}
                                                     </h3>
-                                                    <ArrowUpRight
-                                                        className={`h-6 w-6 transition-all duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 ${
-                                                            index === current
-                                                                ? 'text-background'
-                                                                : 'text-foreground group-hover:text-background'
-                                                        }`}
-                                                    />
                                                 </div>
                                                 <div
                                                     className={`mb-6 h-1 w-16 transition-colors ${

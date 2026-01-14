@@ -113,8 +113,19 @@ export default function Footer() {
 
                 {/* Bottom - Copyright & Social Media */}
                 <div className="flex w-full flex-col items-center justify-between gap-4 md:flex-row">
-                    <p className="text-sm text-muted-foreground">
+                    <p className="flex flex-col gap-1 text-sm text-muted-foreground">
                         © Copyright SMKN 6 Surakarta 2025. All Right Reserved.
+                        <span>
+                            Develop By{' '}
+                            <a
+                                className="font-semibold"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://instagram.com/mas_rizafi"
+                            >
+                                RizafiDev
+                            </a>
+                        </span>
                     </p>
                     <div className="flex items-center gap-4">
                         {socialMedia.map(({ Icon, href, label }) => (
