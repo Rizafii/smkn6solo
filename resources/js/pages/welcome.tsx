@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import About from '@/section/About';
 import Hero from '@/section/Hero';
 import Highlight from '@/section/Highlight';
@@ -25,6 +26,7 @@ export default function Welcome({
             <Highlight />
             <About />
             <Stats />
+            <Footer />
         </>
     );
 }
