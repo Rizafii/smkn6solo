@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import About from '@/section/About';
+import Facility from '@/section/Facility';
 import Hero from '@/section/Hero';
 import Highlight from '@/section/Highlight';
 import Stats from '@/section/Stats';
@@ -28,6 +29,7 @@ export default function Welcome({
             <Highlight />
             <About />
             <Stats />
+            <Facility />
             <Footer />
         </>
     );
