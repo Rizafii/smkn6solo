@@ -307,7 +307,7 @@ export default function Hero() {
                             className="group relative flex flex-1 flex-col items-start gap-2"
                         >
                             <span
-                                className={`text-sm font-medium transition-colors group-hover:text-background ${
+                                className={`md:ext-sm text-xs font-medium transition-colors group-hover:text-background ${
                                     index === currentSlide
                                         ? 'text-background'
                                         : 'text-background/80'
@@ -315,7 +315,7 @@ export default function Hero() {
                             >
                                 {slide.title}
                             </span>
-                            <div className="h-1 w-full overflow-hidden rounded-full bg-background/30">
+                            <div className="h-0.5 w-full overflow-hidden rounded-full bg-background/30 md:h-1">
                                 <div
                                     className="h-full bg-primary transition-all duration-100"
                                     style={{

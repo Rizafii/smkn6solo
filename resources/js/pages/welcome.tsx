@@ -1,5 +1,7 @@
+import About from '@/section/About';
 import Hero from '@/section/Hero';
 import Highlight from '@/section/Highlight';
+import Stats from '@/section/Stats';
 import { type SharedData } from '@/types';
 import { Head, usePage } from '@inertiajs/react';
 
@@ -21,6 +23,8 @@ export default function Welcome({
             </Head>
             <Hero />
             <Highlight />
+            <About />
+            <Stats />
         </>
     );
 }
