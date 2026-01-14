@@ -31,6 +31,35 @@ const vocations = [
             'Jelajahi laporan tahunan bisnis dan kinerja keuangan setiap tahun.',
         bgImage: '/gallery/3.jpeg',
     },
+
+    {
+        id: 4,
+        title: 'Annual Report',
+        description:
+            'Jelajahi laporan tahunan bisnis dan kinerja keuangan setiap tahun.',
+        bgImage: '/gallery/3.jpeg',
+    },
+    {
+        id: 5,
+        title: 'Annual Report',
+        description:
+            'Jelajahi laporan tahunan bisnis dan kinerja keuangan setiap tahun.',
+        bgImage: '/gallery/3.jpeg',
+    },
+    {
+        id: 6,
+        title: 'Annual Report',
+        description:
+            'Jelajahi laporan tahunan bisnis dan kinerja keuangan setiap tahun.',
+        bgImage: '/gallery/3.jpeg',
+    },
+    {
+        id: 7,
+        title: 'Annual Report',
+        description:
+            'Jelajahi laporan tahunan bisnis dan kinerja keuangan setiap tahun.',
+        bgImage: '/gallery/3.jpeg',
+    },
 ];
 
 export default function Vocation() {
@@ -48,9 +77,9 @@ export default function Vocation() {
     }, [api]);
     return (
         <section className="w-full">
-            <div className="container py-12 md:py-28">
+            <div className="container mx-auto px-6 py-12 md:px-26 md:py-28">
                 <div className="flex w-full flex-col items-center gap-12 md:gap-14">
-                    <div className="top flex w-full flex-col items-end justify-between gap-6 px-6 md:flex-row md:gap-0 md:px-26">
+                    <div className="top flex w-full flex-col items-end justify-between gap-6 md:flex-row md:gap-0">
                         <div className="title flex flex-col items-start gap-2">
                             <p className="text-sm font-semibold text-primary uppercase">
                                 Vocation
@@ -67,7 +96,7 @@ export default function Vocation() {
                             </p>
                         </div>
                     </div>
-                    <div className="content relative h-[600px] w-full">
+                    <div className="content relative h-[600px] w-full overflow-hidden">
                         {/* Background Image - Left Half Only */}
                         <div className="absolute top-0 bottom-0 left-0 w-1/2 overflow-hidden">
                             {vocations.map((vocation, index) => (
@@ -85,8 +114,11 @@ export default function Vocation() {
                             <div className="absolute inset-0 bg-black/20" />
                         </div>
 
+                        {/* Gradient Overlay - White to Transparent */}
+                        <div className="pointer-events-none absolute top-0 right-0 bottom-0 z-10 w-1/4 bg-linear-to-l from-background to-transparent" />
+
                         {/* Floating Cards on the Right - Horizontal Carousel */}
-                        <div className="absolute top-0 right-0 bottom-0 flex w-full items-center pr-4 md:w-3/5">
+                        <div className="absolute top-0 right-0 bottom-0 flex w-full items-center pr-4 pl-4 md:w-3/5">
                             <Carousel
                                 setApi={setApi}
                                 opts={{
@@ -95,28 +127,58 @@ export default function Vocation() {
                                 }}
                                 className="w-full"
                             >
-                                <CarouselContent className="-ml-4 py-8">
-                                    {vocations.map((vocation) => (
+                                <CarouselContent className="w-full py-8">
+                                    {vocations.map((vocation, index) => (
                                         <CarouselItem
                                             key={vocation.id}
-                                            className="basis-2/5 pl-4"
+                                            className="basis-full pl-4 md:basis-3/7"
                                         >
-                                            <div className="group flex h-[400px] cursor-pointer flex-col rounded-lg bg-card p-12 shadow-lg transition-colors duration-300 hover:bg-primary">
+                                            <div
+                                                className={`group flex h-[400px] cursor-pointer flex-col rounded-lg p-12 shadow-lg transition-colors duration-300 ${
+                                                    index === current
+                                                        ? 'bg-primary'
+                                                        : 'bg-card hover:bg-primary'
+                                                }`}
+                                            >
                                                 <div className="mb-6 flex items-start justify-between">
-                                                    <h3 className="text-3xl font-bold text-foreground transition-colors group-hover:text-background">
+                                                    <h3
+                                                        className={`text-3xl font-bold transition-colors ${
+                                                            index === current
+                                                                ? 'text-background'
+                                                                : 'text-foreground group-hover:text-background'
+                                                        }`}
+                                                    >
                                                         {vocation.title}
                                                     </h3>
-                                                    <ArrowUpRight className="h-6 w-6 text-foreground transition-all duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-background" />
+                                                    <ArrowUpRight
+                                                        className={`h-6 w-6 transition-all duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 ${
+                                                            index === current
+                                                                ? 'text-background'
+                                                                : 'text-foreground group-hover:text-background'
+                                                        }`}
+                                                    />
                                                 </div>
-                                                <div className="mb-6 h-1 w-16 bg-primary transition-colors group-hover:bg-background" />
-                                                <p className="text-sm leading-relaxed text-muted-foreground transition-colors group-hover:text-background/90">
+                                                <div
+                                                    className={`mb-6 h-1 w-16 transition-colors ${
+                                                        index === current
+                                                            ? 'bg-background'
+                                                            : 'bg-primary group-hover:bg-background'
+                                                    }`}
+                                                />
+                                                <p
+                                                    className={`text-sm leading-relaxed transition-colors ${
+                                                        index === current
+                                                            ? 'text-background/90'
+                                                            : 'text-muted-foreground group-hover:text-background/90'
+                                                    }`}
+                                                >
                                                     {vocation.description}
                                                 </p>
                                             </div>
                                         </CarouselItem>
                                     ))}
                                 </CarouselContent>
-                                <div className="absolute right-4 -bottom-20 flex gap-4">
+                                <div className="absolute right-4 z-20 flex gap-4">
                                     <CarouselPrevious className="relative top-0 left-0 h-12 w-12 translate-y-0" />
                                     <CarouselNext className="relative top-0 right-0 h-12 w-12 translate-y-0" />
                                 </div>
