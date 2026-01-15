@@ -4,6 +4,7 @@ import About from '@/section/About';
 import Facility from '@/section/Facility';
 import Hero from '@/section/Hero';
 import Highlight from '@/section/Highlight';
+import Program from '@/section/Program';
 import Stats from '@/section/Stats';
 import Vocation from '@/section/Vocation';
 import { type SharedData } from '@/types';
@@ -32,6 +33,7 @@ export default function Welcome({
             <Stats />
             <Facility />
             <Vocation />
+            <Program />
             <Footer />
         </>
     );

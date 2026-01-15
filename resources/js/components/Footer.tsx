@@ -39,7 +39,7 @@ const socialMedia = [
 export default function Footer() {
     return (
         <footer className="w-full bg-slate-50">
-            <div className="container mx-auto flex flex-col items-center gap-16 px-6 py-12 md:px-26 md:py-24">
+            <div className="container mx-auto flex flex-col items-center gap-16 px-8 py-12 md:px-26 md:py-24">
                 {/* Header Section */}
                 <div className="flex flex-col items-center gap-10 text-center">
                     <Link className="flex items-center gap-2">

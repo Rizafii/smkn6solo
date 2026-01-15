@@ -58,7 +58,7 @@ export default function Navbar({ hideUntilAfterHero = false }: NavbarProps) {
                           showNavbar ? 'translate-y-0' : '-translate-y-full'
                       }`
                     : 'relative bg-primary'
-            } mx-auto flex w-full items-center justify-between px-6 py-6 md:px-26`}
+            } mx-auto flex w-full items-center justify-between px-8 py-6 md:px-26`}
         >
             <Link className="flex items-center gap-2">
                 <img src="/smk.svg" alt="" className="h-auto w-14" />

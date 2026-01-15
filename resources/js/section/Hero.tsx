@@ -67,7 +67,7 @@ export default function Hero() {
                 />
             ))}
             <div className="absolute inset-0 bg-black/40" />
-            {/* <header className="relative mx-auto flex w-full items-center overflow-hidden bg-foreground/20 px-6 py-2 text-background backdrop-blur-md md:px-26">
+            {/* <header className="relative mx-auto flex w-full items-center overflow-hidden bg-foreground/20 px-8 py-2 text-background backdrop-blur-md md:px-26">
                 <span className="shrink-0 pr-4 font-bold">
                     BERITA TERBARU :{' '}
                 </span>
@@ -93,7 +93,7 @@ export default function Hero() {
                 </div>
             </header> */}
 
-            <nav className="relative mx-auto flex w-full items-center justify-between px-6 py-6 md:px-26">
+            <nav className="relative mx-auto flex w-full items-center justify-between px-8 py-6 md:px-26">
                 <Link className="flex items-center gap-2">
                     <img src="/smk.svg" alt="" className="h-auto w-14" />
                     <p className="text-xl leading-6 font-bold tracking-wider text-background uppercase">
@@ -284,7 +284,7 @@ export default function Hero() {
                 />
             </nav>
 
-            <article className="absolute bottom-32 flex flex-col items-start gap-6 px-6 md:px-26">
+            <article className="absolute bottom-32 flex flex-col items-start gap-6 px-8 md:px-26">
                 <h1 className="max-w-[600px] text-3xl font-bold text-background">
                     Lorem Ipsum Dolor Sitamet
                 </h1>
@@ -298,7 +298,7 @@ export default function Hero() {
                 <Button variant="outlinewhite">Selengkapnya</Button>
             </article>
             {/* Slide Indicators with Progress - Bottom of Section */}
-            <div className="absolute right-0 bottom-8 left-0 flex w-full justify-center px-6 md:px-26">
+            <div className="absolute right-0 bottom-8 left-0 flex w-full justify-center px-8 md:px-26">
                 <div className="flex w-full gap-4">
                     {heroSlides.map((slide, index) => (
                         <button

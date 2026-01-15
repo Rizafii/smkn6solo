@@ -34,7 +34,7 @@ const statsData = [
 export default function Stats() {
     return (
         <section className="w-full">
-            <div className="container mx-auto px-6 py-12 md:px-26 md:py-28">
+            <div className="container mx-auto px-8 py-12 md:px-26 md:py-28">
                 <article className="flex flex-col items-center gap-12 md:gap-24">
                     <div className="top flex w-full flex-col items-end justify-between gap-6 md:flex-row md:gap-0">
                         <div className="title flex flex-col items-start gap-2">

@@ -49,7 +49,7 @@ export default function Facility() {
                         <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent opacity-50 transition-opacity duration-300 group-hover:opacity-100" />
 
                         {/* Content */}
-                        <div className="relative flex h-full flex-col justify-end px-6 py-10 text-white">
+                        <div className="relative flex h-full flex-col justify-end px-8 py-10 text-white">
                             {/* Arrow Button */}
                             <div className="flex w-full flex-col items-start gap-6">
                                 <div className="content flex flex-col gap-2">

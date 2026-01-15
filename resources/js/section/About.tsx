@@ -9,7 +9,7 @@ export default function About() {
                 className="absolute inset-0 h-full w-full object-cover"
             />
             <div className="absolute inset-0 bg-linear-to-r from-black/50 to-black/10" />
-            <div className="relative container mx-auto px-6 py-24 md:px-26 md:py-42">
+            <div className="relative container mx-auto px-8 py-24 md:px-26 md:py-42">
                 <article className="flex flex-col items-start gap-6">
                     <p className="-mb-4 text-sm font-semibold text-background uppercase">
                         SMKN 6 SURAKARTA
