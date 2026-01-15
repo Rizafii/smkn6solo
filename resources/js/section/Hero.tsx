@@ -108,7 +108,7 @@ export default function Hero() {
                                 Tentang Kami
                             </NavigationMenuTrigger>
                             <NavigationMenuContent>
-                                <ul className="grid w-[300px] gap-4">
+                                <ul className="grid w-75 gap-4">
                                     <li>
                                         <NavigationMenuLink asChild>
                                             <Link href="#">
@@ -151,7 +151,7 @@ export default function Hero() {
                                 Tentang Kami
                             </NavigationMenuTrigger>
                             <NavigationMenuContent>
-                                <ul className="grid w-[300px] gap-4">
+                                <ul className="grid w-75 gap-4">
                                     <li>
                                         <NavigationMenuLink asChild>
                                             <Link href="#">
@@ -194,7 +194,7 @@ export default function Hero() {
                                 Tentang Kami
                             </NavigationMenuTrigger>
                             <NavigationMenuContent>
-                                <ul className="grid w-[300px] gap-4">
+                                <ul className="grid w-75 gap-4">
                                     <li>
                                         <NavigationMenuLink asChild>
                                             <Link href="#">
@@ -237,7 +237,7 @@ export default function Hero() {
                                 Tentang Kami
                             </NavigationMenuTrigger>
                             <NavigationMenuContent>
-                                <ul className="grid w-[300px] gap-4">
+                                <ul className="grid w-75 gap-4">
                                     <li>
                                         <NavigationMenuLink asChild>
                                             <Link href="#">
@@ -285,10 +285,10 @@ export default function Hero() {
             </nav>
 
             <article className="absolute bottom-32 flex flex-col items-start gap-6 px-8 md:px-26">
-                <h1 className="max-w-[600px] text-3xl font-bold text-background">
+                <h1 className="max-w-150 text-3xl font-bold text-background">
                     Lorem Ipsum Dolor Sitamet
                 </h1>
-                <p className="max-w-[750px] leading-7 font-medium text-background">
+                <p className="max-w-187.5 leading-7 font-medium text-background">
                     "Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quisquam, quod, quia, voluptatum, voluptatibus quae
                     voluptatem quibusdam quibusdamque quas officiis quibusdam.

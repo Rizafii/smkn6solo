@@ -95,7 +95,7 @@ export default function Vocation() {
                             </p>
                         </div>
                     </div>
-                    <div className="content relative h-[600px] w-full overflow-hidden">
+                    <div className="content relative h-150 w-full overflow-hidden">
                         {/* Background Image - Left Half Only */}
                         <div className="absolute top-0 bottom-0 left-0 w-full overflow-hidden md:w-1/2">
                             {vocations.map((vocation, index) => (
@@ -133,7 +133,7 @@ export default function Vocation() {
                                             className="basis-full pl-4 md:basis-3/7"
                                         >
                                             <div
-                                                className={`group flex h-[400px] cursor-pointer flex-col rounded-lg p-10 shadow-lg transition-colors duration-300 ${
+                                                className={`group flex h-100 cursor-pointer flex-col rounded-lg p-10 shadow-lg transition-colors duration-300 ${
                                                     index === current
                                                         ? 'bg-primary'
                                                         : 'bg-card hover:bg-primary'

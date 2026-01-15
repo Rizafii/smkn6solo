@@ -12,10 +12,10 @@ export default function Highlight() {
                     <p className="-mb-4 text-sm font-semibold text-primary uppercase">
                         Highlight
                     </p>
-                    <h2 className="max-w-[500px] text-3xl font-semibold text-foreground">
+                    <h2 className="max-w-125 text-3xl font-semibold text-foreground">
                         Be Smart And Creative To Become an Entrepreneur
                     </h2>
-                    <p className="max-w-[650px] text-justify text-base leading-7 text-muted-foreground">
+                    <p className="max-w-162.5 text-justify text-base leading-7 text-muted-foreground">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Quisquam, quod, quia, voluptatum, voluptatibus quae
                         voluptatem quibusdam quibusdamque quas officiis

@@ -14,10 +14,10 @@ export default function About() {
                     <p className="-mb-4 text-sm font-semibold text-background uppercase">
                         SMKN 6 SURAKARTA
                     </p>
-                    <h3 className="max-w-[500px] text-3xl font-bold text-background">
+                    <h3 className="max-w-125 text-3xl font-bold text-background">
                         Tentang Kami
                     </h3>
-                    <p className="max-w-[650px] text-justify text-base leading-7 text-background">
+                    <p className="max-w-162.5 text-justify text-base leading-7 text-background">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Quisquam, quod, quia, voluptatum, voluptatibus quae.
                     </p>

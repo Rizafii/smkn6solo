@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import About from '@/section/About';
+import Eskul from '@/section/Eskul';
 import Facility from '@/section/Facility';
 import Hero from '@/section/Hero';
 import Highlight from '@/section/Highlight';
@@ -34,6 +35,7 @@ export default function Welcome({
             <Facility />
             <Vocation />
             <Program />
+            <Eskul />
             <Footer />
         </>
     );
