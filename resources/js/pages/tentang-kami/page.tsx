@@ -1,6 +1,10 @@
+import Footer from '@/components/Footer';
+import Navbar from '@/components/Navbar';
 import Banner from '@/section/tentang-kami/Banner';
+import Logo from '@/section/tentang-kami/Logo';
 import Menu from '@/section/tentang-kami/Menu';
 import Sejarah from '@/section/tentang-kami/Sejarah';
+import Struktur from '@/section/tentang-kami/Struktur';
 import VisiMisi from '@/section/tentang-kami/VisiMisi';
 import { Head } from '@inertiajs/react';
 
@@ -30,9 +34,13 @@ export default function TentangKami() {
             </Head>
             <main>
                 <Banner />
+                <Navbar hideUntilAfterHero />
                 <Menu />
                 <Sejarah />
                 <VisiMisi />
+                <Logo />
+                <Struktur />
+                <Footer />
             </main>
         </>
     );
