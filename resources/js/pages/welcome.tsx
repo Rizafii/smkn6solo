@@ -20,7 +20,7 @@ export default function Welcome({
     const { auth } = usePage<SharedData>().props;
 
     return (
-        <>
+        <main className="overflow-x-hidden">
             <Head title="Beranda">
                 <link rel="preconnect" href="https://fonts.bunny.net" />
                 <link
@@ -39,6 +39,6 @@ export default function Welcome({
             <Eskul />
             <News />
             <Footer />
-        </>
+        </main>
     );
 }
