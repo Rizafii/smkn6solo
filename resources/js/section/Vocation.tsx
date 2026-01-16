@@ -75,23 +75,23 @@ export default function Vocation() {
         });
     }, [api]);
     return (
-        <section className="w-full">
+        <section className="w-full" id="program-keahlian">
             <div className="container mx-auto px-8 py-12 md:px-26 md:py-28">
                 <div className="flex w-full flex-col items-center gap-12 md:gap-14">
                     <div className="top flex w-full flex-col items-start justify-between gap-6 md:flex-row md:items-end md:gap-0">
                         <div className="title flex flex-col items-start gap-2">
                             <p className="text-sm font-semibold text-primary uppercase">
-                                Vocation
+                                Jurusan
                             </p>
                             <h6 className="max-w-125 text-3xl font-semibold text-foreground">
-                                Jurusan Kami
+                                Program Keahlian Kami
                             </h6>
                         </div>
                         <div className="desc">
                             <p className="max-w-137.5 text-justify text-base leading-7 text-muted-foreground">
-                                Setiap jurusan dirancang untuk memberikan
-                                pengetahuan dan keterampilan yang relevan dengan
-                                kebutuhan industri saat ini.
+                                Setiap program keahlian dirancang untuk
+                                memberikan pengetahuan dan keterampilan yang
+                                relevan dengan kebutuhan industri saat ini.
                             </p>
                         </div>
                     </div>

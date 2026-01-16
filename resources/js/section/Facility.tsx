@@ -29,7 +29,7 @@ const facilities = [
 
 export default function Facility() {
     return (
-        <section className="w-full">
+        <section className="w-full" id="fasilitas-sekolah">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                 {facilities.map((facility, index) => (
                     <a

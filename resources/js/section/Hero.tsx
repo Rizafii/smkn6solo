@@ -46,7 +46,10 @@ export default function Hero() {
     }, [currentSlide]);
 
     return (
-        <section className="relative min-h-screen w-full bg-foreground">
+        <section
+            className="relative min-h-screen w-full bg-foreground"
+            id="beranda"
+        >
             {heroSlides.map((slide, index) => (
                 <img
                     key={slide.id}

@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button';
 
 export default function About() {
     return (
-        <section className="relative w-full">
+        <section className="relative w-full" id="tentang-kami">
             <img
                 src="/gallery/1.JPG"
                 alt="about-image"

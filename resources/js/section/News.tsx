@@ -43,7 +43,7 @@ const newsData = [
 
 export default function News() {
     return (
-        <section className="w-full">
+        <section className="w-full" id="berita">
             <div className="container mx-auto flex flex-col gap-14 px-8 py-12 md:px-26 md:py-28">
                 <div className="top flex w-full flex-col items-start justify-between gap-6 md:flex-row md:items-end md:gap-0">
                     <div className="title flex flex-col items-start gap-2">
@@ -76,7 +76,7 @@ export default function News() {
                                 alt={news.title}
                                 className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110"
                             />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent transition-all duration-300 group-hover:opacity-0" />
+                            <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent transition-all duration-300 group-hover:opacity-0" />
                             <div
                                 className={`absolute right-0 bottom-0 left-0 text-white transition-all duration-300 ease-in-out group-hover:bottom-3 ${
                                     news.isFeatured ? 'p-6' : 'p-4'

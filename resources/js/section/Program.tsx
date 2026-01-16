@@ -26,7 +26,7 @@ const programs = [
 
 export default function Program() {
     return (
-        <section className="w-full bg-slate-50">
+        <section className="w-full bg-slate-50" id="program">
             <div className="container mx-auto flex flex-col gap-14 px-8 py-12 md:px-26 md:py-28">
                 <div className="top flex w-full flex-col items-start justify-between gap-6 md:flex-row md:items-end md:gap-0">
                     <div className="title flex flex-col items-start gap-2">

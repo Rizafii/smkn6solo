@@ -1,11 +1,9 @@
-import { Button } from '@/components/ui/button';
-
 export default function Highlight() {
     return (
-        <section className="w-full">
+        <section className="w-full" id="highlight">
             <div className="gird-cols-1 container mx-auto grid items-center justify-center gap-6 px-8 py-12 md:grid-cols-2 md:gap-0 md:px-26 md:py-28">
                 <div className="image flex w-full items-center justify-center">
-                    <img src="/smk.svg" alt="logo" className="h-auto w-82" />
+                    <img src="/smk.svg" alt="logo" className="h-auto w-68" />
                 </div>
 
                 <article className="flex flex-col items-start gap-6">
@@ -23,9 +21,9 @@ export default function Highlight() {
                         kewirausahaan, dan siap menciptakan peluang bisnis di
                         era digital.
                     </p>
-                    <Button variant="outlineprimary" size="default">
+                    {/* <Button variant="outlineprimary" size="default">
                         Selengkapnya
-                    </Button>
+                    </Button> */}
                 </article>
             </div>
         </section>

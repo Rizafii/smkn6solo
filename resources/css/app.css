@@ -155,3 +155,7 @@
 .animate-marquee {
     animation: marquee 30s linear infinite;
 }
+
+html {
+    scroll-behavior: smooth;
+}
