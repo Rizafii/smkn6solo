@@ -16,12 +16,12 @@ export default function Highlight() {
                         Be Smart And Creative To Become an Entrepreneur
                     </h2>
                     <p className="max-w-162.5 text-justify text-base leading-7 text-muted-foreground">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam, quod, quia, voluptatum, voluptatibus quae
-                        voluptatem quibusdam quibusdamque quas officiis
-                        quibusdam. Quisquam, quod, quia, voluptatum,
-                        voluptatibus quae voluptatem quibusdam quibusdamque quas
-                        officiis quibusdam.
+                        Menjadi cerdas dan kreatif adalah kunci untuk menjadi
+                        wirausahawan sukses. Di SMKN 6 Surakarta, kami tidak
+                        hanya mengajarkan teori, tetapi juga mendorong siswa
+                        untuk berpikir inovatif, mengembangkan jiwa
+                        kewirausahaan, dan siap menciptakan peluang bisnis di
+                        era digital.
                     </p>
                     <Button variant="outlineprimary" size="default">
                         Selengkapnya

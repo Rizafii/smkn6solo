@@ -286,14 +286,14 @@ export default function Hero() {
 
             <article className="absolute bottom-32 flex flex-col items-start gap-6 px-8 md:px-26">
                 <h1 className="max-w-150 text-3xl font-bold text-background">
-                    Lorem Ipsum Dolor Sitamet
+                    Wujudkan Masa Depan Cerah Bersama SMKN 6 Surakarta
                 </h1>
                 <p className="max-w-187.5 leading-7 font-medium text-background">
-                    "Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quisquam, quod, quia, voluptatum, voluptatibus quae
-                    voluptatem quibusdam quibusdamque quas officiis quibusdam.
-                    Quisquam, quod, quia, voluptatum, voluptatibus quae
-                    voluptatem quibusdam quibusdamque quas officiis quibusdam.""
+                    Bergabunglah dengan sekolah kejuruan terdepan yang
+                    mempersiapkan generasi muda menjadi profesional handal dan
+                    wirausahawan sukses. Dengan 7 jurusan pilihan, fasilitas
+                    modern, dan program pembelajaran inovatif, kami siap
+                    membimbing Anda meraih prestasi dan kesuksesan.
                 </p>
                 <Button variant="outlinewhite">Selengkapnya</Button>
             </article>

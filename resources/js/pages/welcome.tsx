@@ -5,6 +5,7 @@ import Eskul from '@/section/Eskul';
 import Facility from '@/section/Facility';
 import Hero from '@/section/Hero';
 import Highlight from '@/section/Highlight';
+import News from '@/section/News';
 import Program from '@/section/Program';
 import Stats from '@/section/Stats';
 import Vocation from '@/section/Vocation';
@@ -20,7 +21,7 @@ export default function Welcome({
 
     return (
         <>
-            <Head title="Welcome">
+            <Head title="Beranda">
                 <link rel="preconnect" href="https://fonts.bunny.net" />
                 <link
                     href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600"
@@ -36,6 +37,7 @@ export default function Welcome({
             <Vocation />
             <Program />
             <Eskul />
+            <News />
             <Footer />
         </>
     );

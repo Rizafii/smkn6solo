@@ -87,7 +87,7 @@ export default function Eskul() {
                             </TabsTrigger>
                         </TabsList>
                         <TabsContent value="organisasi">
-                            <div className="container mt-4 grid w-full grid-cols-6 items-center gap-4">
+                            <div className="container mt-4 grid w-full grid-cols-2 items-center gap-4 md:grid-cols-6">
                                 {organisasiData.map((item) => (
                                     <div
                                         key={item.id}

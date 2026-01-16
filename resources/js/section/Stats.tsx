@@ -47,9 +47,10 @@ export default function Stats() {
                         </div>
                         <div className="desc">
                             <p className="max-w-137.5 text-justify text-base leading-7 text-muted-foreground">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Quisquam, quod, quia
-                                voluptatum, voluptatibus quae voluptatem.
+                                Statistik dan data terkini tentang SMKN 6
+                                Surakarta yang menunjukkan komitmen kami dalam
+                                memberikan pendidikan berkualitas dengan
+                                dukungan sumber daya yang memadai.
                             </p>
                         </div>
                     </div>

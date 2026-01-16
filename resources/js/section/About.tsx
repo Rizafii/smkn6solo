@@ -18,8 +18,12 @@ export default function About() {
                         Tentang Kami
                     </h3>
                     <p className="max-w-162.5 text-justify text-base leading-7 text-background">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam, quod, quia, voluptatum, voluptatibus quae.
+                        SMK Negeri 6 Surakarta adalah sekolah menengah kejuruan
+                        yang berkomitmen untuk mencetak lulusan yang kompeten,
+                        berkarakter, dan siap bersaing di dunia kerja. Dengan
+                        fasilitas modern dan tenaga pengajar profesional, kami
+                        mengembangkan potensi siswa melalui pembelajaran
+                        berkualitas dan program-program unggulan yang inovatif.
                     </p>
                     <div className="CTA mt-4 flex flex-col items-start gap-6 md:flex-row md:items-center">
                         <Button variant="outlinewhite" size="default">
