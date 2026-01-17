@@ -1,6 +1,6 @@
 export default function Profile() {
     return (
-        <section className="w-full">
+        <section className="w-full" id="visi-misi">
             <div className="container mx-auto px-8 pb-12 md:px-62 md:pb-24">
                 <article className="flex flex-col items-start gap-10">
                     <h2 className="text-3xl font-semibold text-foreground">
