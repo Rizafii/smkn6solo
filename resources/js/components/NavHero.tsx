@@ -22,8 +22,11 @@ export default function NavHero() {
             <NavigationMenu viewport={false}>
                 <NavigationMenuList className="flex-wrap">
                     <NavigationMenuItem className="hidden md:block">
-                        <NavigationMenuLink className="text-base font-semibold text-background hover:text-background">
-                            <Link href="/">
+                        <NavigationMenuLink className="">
+                            <Link
+                                href="/"
+                                className="text-base font-semibold text-background hover:text-background"
+                            >
                                 <p>Beranda</p>
                             </Link>
                         </NavigationMenuLink>
@@ -35,12 +38,75 @@ export default function NavHero() {
                         <NavigationMenuContent>
                             <ul className="grid w-75 gap-4">
                                 <li>
-                                    <NavigationMenuLink asChild>
+                                    <NavigationMenuLink
+                                        asChild
+                                        className="hover:border-l-4 hover:border-primary"
+                                    >
                                         <Link href="/tentang-kami">
                                             <p>Tentang Kami</p>
                                         </Link>
                                     </NavigationMenuLink>
-                                    <NavigationMenuLink asChild>
+                                    <NavigationMenuLink
+                                        asChild
+                                        className="hover:border-l-4 hover:border-primary"
+                                    >
+                                        <Link href="/tentang-kami#sejarah">
+                                            <p>Sejarah Singkat</p>
+                                        </Link>
+                                    </NavigationMenuLink>
+                                    <NavigationMenuLink
+                                        asChild
+                                        className="hover:border-l-4 hover:border-primary"
+                                    >
+                                        <Link href="/tentang-kami#visi-misi">
+                                            <p>Visi & Misi</p>
+                                        </Link>
+                                    </NavigationMenuLink>
+                                    <NavigationMenuLink
+                                        asChild
+                                        className="hover:border-l-4 hover:border-primary"
+                                    >
+                                        <Link href="/tentang-kami#logo">
+                                            <p>Logo</p>
+                                        </Link>
+                                    </NavigationMenuLink>
+                                    <NavigationMenuLink
+                                        asChild
+                                        className="hover:border-l-4 hover:border-primary"
+                                    >
+                                        <Link href="/tentang-kami#stuktur">
+                                            <p>Struktur Organisasi</p>
+                                        </Link>
+                                    </NavigationMenuLink>
+                                </li>
+                            </ul>
+                        </NavigationMenuContent>
+                    </NavigationMenuItem>
+                    <NavigationMenuItem className="hidden md:block">
+                        <NavigationMenuTrigger className="text-base font-semibold text-background hover:text-background">
+                            Tentang Kami
+                        </NavigationMenuTrigger>
+                        <NavigationMenuContent>
+                            <ul className="grid w-75 gap-4">
+                                <li>
+                                    <NavigationMenuLink
+                                        asChild
+                                        className="hover:border-l-4 hover:border-primary"
+                                    >
+                                        <Link href="#">
+                                            <div className="font-medium">
+                                                Components
+                                            </div>
+                                            <div className="text-muted-foreground">
+                                                Browse all components in the
+                                                library.
+                                            </div>
+                                        </Link>
+                                    </NavigationMenuLink>
+                                    <NavigationMenuLink
+                                        asChild
+                                        className="hover:border-l-4 hover:border-primary"
+                                    >
                                         <Link href="#">
                                             <div className="font-medium">
                                                 Documentation
@@ -50,7 +116,10 @@ export default function NavHero() {
                                             </div>
                                         </Link>
                                     </NavigationMenuLink>
-                                    <NavigationMenuLink asChild>
+                                    <NavigationMenuLink
+                                        asChild
+                                        className="hover:border-l-4 hover:border-primary"
+                                    >
                                         <Link href="#">
                                             <div className="font-medium">
                                                 Blog
@@ -68,10 +137,13 @@ export default function NavHero() {
                         <NavigationMenuTrigger className="text-base font-semibold text-background hover:text-background">
                             Tentang Kami
                         </NavigationMenuTrigger>
-                        <NavigationMenuContent>
+                        <NavigationMenuContent className="md:right-4 md:left-auto">
                             <ul className="grid w-75 gap-4">
                                 <li>
-                                    <NavigationMenuLink asChild>
+                                    <NavigationMenuLink
+                                        asChild
+                                        className="hover:border-l-4 hover:border-primary"
+                                    >
                                         <Link href="#">
                                             <div className="font-medium">
                                                 Components
@@ -82,7 +154,10 @@ export default function NavHero() {
                                             </div>
                                         </Link>
                                     </NavigationMenuLink>
-                                    <NavigationMenuLink asChild>
+                                    <NavigationMenuLink
+                                        asChild
+                                        className="hover:border-l-4 hover:border-primary"
+                                    >
                                         <Link href="#">
                                             <div className="font-medium">
                                                 Documentation
@@ -92,49 +167,10 @@ export default function NavHero() {
                                             </div>
                                         </Link>
                                     </NavigationMenuLink>
-                                    <NavigationMenuLink asChild>
-                                        <Link href="#">
-                                            <div className="font-medium">
-                                                Blog
-                                            </div>
-                                            <div className="text-muted-foreground">
-                                                Read our latest blog posts.
-                                            </div>
-                                        </Link>
-                                    </NavigationMenuLink>
-                                </li>
-                            </ul>
-                        </NavigationMenuContent>
-                    </NavigationMenuItem>
-                    <NavigationMenuItem className="hidden md:block">
-                        <NavigationMenuTrigger className="text-base font-semibold text-background hover:text-background">
-                            Tentang Kami
-                        </NavigationMenuTrigger>
-                        <NavigationMenuContent>
-                            <ul className="grid w-75 gap-4">
-                                <li>
-                                    <NavigationMenuLink asChild>
-                                        <Link href="#">
-                                            <div className="font-medium">
-                                                Components
-                                            </div>
-                                            <div className="text-muted-foreground">
-                                                Browse all components in the
-                                                library.
-                                            </div>
-                                        </Link>
-                                    </NavigationMenuLink>
-                                    <NavigationMenuLink asChild>
-                                        <Link href="#">
-                                            <div className="font-medium">
-                                                Documentation
-                                            </div>
-                                            <div className="text-muted-foreground">
-                                                Learn how to use the library.
-                                            </div>
-                                        </Link>
-                                    </NavigationMenuLink>
-                                    <NavigationMenuLink asChild>
+                                    <NavigationMenuLink
+                                        asChild
+                                        className="hover:border-l-4 hover:border-primary"
+                                    >
                                         <Link href="#">
                                             <div className="font-medium">
                                                 Blog

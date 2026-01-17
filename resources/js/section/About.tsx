@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button';
+import { Link } from '@inertiajs/react';
 
 export default function About() {
     return (
@@ -26,12 +27,16 @@ export default function About() {
                         berkualitas dan program-program unggulan yang inovatif.
                     </p>
                     <div className="CTA mt-4 flex flex-col items-start gap-6 md:flex-row md:items-center">
-                        <Button variant="outlinewhite" size="default">
-                            Selengkapnya
-                        </Button>
-                        <Button variant="outlinewhite" size="default">
-                            Stuktur Organisasi
-                        </Button>
+                        <Link href="/tentang-kami">
+                            <Button variant="outlinewhite" size="default">
+                                Selengkapnya
+                            </Button>
+                        </Link>
+                        <Link href="/tentang-kami#struktur">
+                            <Button variant="outlinewhite" size="default">
+                                Stuktur Organisasi
+                            </Button>
+                        </Link>
                     </div>
                 </article>
             </div>
