@@ -1,7 +1,7 @@
 export default function Profile() {
     return (
         <section className="w-full" id="sejarah">
-            <div className="container mx-auto px-8 py-12 md:px-62 md:py-24">
+            <div className="container mx-auto px-8 pb-12 md:px-62 md:pb-24">
                 <article className="flex flex-col items-start gap-10">
                     <h2 className="text-3xl font-semibold text-foreground">
                         Sejarah Singkat

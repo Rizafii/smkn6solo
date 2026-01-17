@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar';
 import Banner from '@/section/tentang-kami/Banner';
 import Logo from '@/section/tentang-kami/Logo';
 import Menu from '@/section/tentang-kami/Menu';
+import Sambutan from '@/section/tentang-kami/Sambutan';
 import Sejarah from '@/section/tentang-kami/Sejarah';
 import Struktur from '@/section/tentang-kami/Struktur';
 import VisiMisi from '@/section/tentang-kami/VisiMisi';
@@ -36,6 +37,7 @@ export default function TentangKami() {
                 <Banner />
                 <Navbar hideUntilAfterHero />
                 <Menu />
+                <Sambutan />
                 <Sejarah />
                 <VisiMisi />
                 <Logo />

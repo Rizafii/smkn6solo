@@ -4,28 +4,33 @@ export default function Menu() {
     const LinkData = [
         {
             id: 1,
+            title: 'Sambutan',
+            href: '#sambutan',
+        },
+        {
+            id: 2,
             title: 'Sejarah',
             href: '#sejarah',
         },
         {
-            id: 2,
+            id: 3,
             title: 'Visi & Misi',
             href: '#visi-misi',
         },
         {
-            id: 3,
+            id: 4,
             title: 'Logo',
             href: '#logo',
         },
         {
-            id: 4,
+            id: 5,
             title: 'Struktur',
             href: '#struktur',
         },
     ];
     return (
         <section className="w-full">
-            <div className="grid grid-cols-4">
+            <div className="grid grid-cols-5">
                 {LinkData.map((link) => (
                     <Link
                         href={link.href}

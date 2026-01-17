@@ -5,7 +5,7 @@ export default function Logo() {
                 <h2 className="text-3xl font-semibold text-foreground">
                     Arti dan Filosofi Logo
                 </h2>
-                <div className="content flex items-center gap-6">
+                <div className="content flex flex-col items-center gap-6 md:flex-row">
                     <img
                         src="/smk.svg"
                         alt="Arti dan Filosofi Logo"
