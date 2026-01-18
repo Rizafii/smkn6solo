@@ -1,17 +1,17 @@
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import SearchFilter from '@/components/SearchFilter';
-import Banner from '@/section/berita/Banner';
-import ListBerita from '@/section/berita/ListBerita';
 import PaginationComponent from '@/section/berita/Pagination';
+import Banner from '@/section/program/Banner';
+import ListProgram from '@/section/program/ListProgram';
 
 export default function Page() {
     return (
         <>
             <Banner />
             <Navbar hideUntilAfterHero />
-            <SearchFilter title="Berita" />
-            <ListBerita />
+            <SearchFilter title="Program" />
+            <ListProgram />
             <PaginationComponent />
             <Footer />
         </>

@@ -32,13 +32,19 @@ const months = [
 const currentYear = new Date().getFullYear();
 const years = Array.from({ length: 10 }, (_, i) => currentYear - i);
 
-export default function SearchFilter() {
+interface SearchFilterProps {
+    title?: string;
+}
+
+export default function SearchFilter({
+    title = 'Filter Berita',
+}: SearchFilterProps) {
     return (
         <section className="w-full">
             <div className="container mx-auto flex flex-col gap-14 px-8 pt-12 md:px-26 md:pt-28">
                 <div className="header flex w-full flex-col items-start justify-between gap-6 md:flex-row md:items-center md:gap-0">
                     <h2 className="text-3xl font-semibold text-foreground">
-                        Berita Terbaru
+                        {title}
                     </h2>
                     <div className="cta grid grid-cols-3 items-center gap-6">
                         <InputGroup>

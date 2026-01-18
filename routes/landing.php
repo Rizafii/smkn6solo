@@ -9,3 +9,7 @@ Route::get('/tentang-kami', function () {
 Route::get('/berita', function () {
     return Inertia::render('berita/page');
 })->name('berita');
+
+Route::get('/program', function(){
+    return Inertia::render('program/page');
+})->name('program');

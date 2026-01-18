@@ -93,8 +93,8 @@ export default function NavHero() {
                                 asChild
                                 className="hover:border-l-4 hover:border-primary"
                             >
-                                <Link href="/tentang-kami#sambutan">
-                                    <p>Sambutan Kepala Sekolah</p>
+                                <Link href="/program">
+                                    <p>Program</p>
                                 </Link>
                             </NavigationMenuLink>
                             <NavigationMenuLink
